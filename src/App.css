@@ -1,0 +1,44 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* src/components/MovieCard.css */
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  /* src/components/MovieGrid.css */
+  .movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* src/components/Pagination.css */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
