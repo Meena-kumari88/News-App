@@ -1,4 +1,4 @@
-// src/pages/HomePage.jsx
+
 import React from 'react';
 import MovieGrid from '../components/MovieGrid';
 import Pagination from '../components/Pagination';
