@@ -1,13 +1,13 @@
-// src/App.jsx
+// src/App.js
 import React from 'react';
-import HomePage from './pages/HomePage';
-import './App.css';
+import MovieApp from './components/MovieApp';
 
-const App = () => (
-  <div className="App">
-    <h1>Movie Database</h1>
-    <HomePage />
-  </div>
-);
+const App = () => {
+  return (
+    <div>
+      <MovieApp />
+    </div>
+  );
+};
 
 export default App;
